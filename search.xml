@@ -6,6 +6,17 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="JavaWeb学习笔记"><a href="#JavaWeb学习笔记" class="headerlink" title="JavaWeb学习笔记"></a>JavaWeb学习笔记</h1>]]></content>
   </entry>
   <entry>
+    <title>测试</title>
+    <url>/2024/01/29/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>lzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>lzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>lzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>java的helloworld</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * public : 表示公有的，权限修饰符</span></span><br><span class="line"><span class="comment">     * cLass: Java中的关键字，用来修饰一个类</span></span><br><span class="line"><span class="comment">     * HeLlo : 是类名</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * static :关键字 表示静态的</span></span><br><span class="line"><span class="comment">         * void:关键字 表示没有返回值类型</span></span><br><span class="line"><span class="comment">         * main:表示主方法 是Java程序的入口</span></span><br><span class="line"><span class="comment">         (string[] args ) 表示形参变量string类型的数组args是形参变量名</span></span><br><span class="line"><span class="comment">         *IDEA中飘红的错误，统称为编译错误</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        System.out.println(<span class="string">&quot;我是lzz，专业是软件工程，没有座右铭&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>daddsakldjakldjalskd</p>
+]]></content>
+  </entry>
+  <entry>
     <title>HelloWorld</title>
     <url>/2024/01/29/HelloWorld/HelloWorld/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我的第一篇博客文章!</p>
@@ -28,17 +39,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2024/01/29/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>lzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
-<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>lzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
-<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>lzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
-<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>java的helloworld</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * public : 表示公有的，权限修饰符</span></span><br><span class="line"><span class="comment">     * cLass: Java中的关键字，用来修饰一个类</span></span><br><span class="line"><span class="comment">     * HeLlo : 是类名</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * static :关键字 表示静态的</span></span><br><span class="line"><span class="comment">         * void:关键字 表示没有返回值类型</span></span><br><span class="line"><span class="comment">         * main:表示主方法 是Java程序的入口</span></span><br><span class="line"><span class="comment">         (string[] args ) 表示形参变量string类型的数组args是形参变量名</span></span><br><span class="line"><span class="comment">         *IDEA中飘红的错误，统称为编译错误</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        System.out.println(<span class="string">&quot;我是lzz，专业是软件工程，没有座右铭&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>daddsakldjakldjalskd</p>
 ]]></content>
   </entry>
   <entry>
