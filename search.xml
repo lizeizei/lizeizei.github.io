@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2024/01/29/HelloWorld/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>C++算法 学习笔记</title>
     <url>/2024/02/13/C++%E7%AE%97%E6%B3%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="C-算法-学习笔记"><a href="#C-算法-学习笔记" class="headerlink" title="C++算法 学习笔记"></a>C++算法 学习笔记</h1><h2 id="第一个C-程序"><a href="#第一个C-程序" class="headerlink" title="第一个C++程序"></a>第一个C++程序</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//头文件iostream是cin和cout流</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">// std表示是一个类库,要调用cin和cout需要先声明这个类库</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">void</span>)</span> </span>&#123;</span><br><span class="line">	<span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;HelloWorld!&quot;</span> &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//endl表示换行</span></span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; ++n &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -21,39 +39,13 @@
 
 <h2 id="引用"><a href="#引用" class="headerlink" title="引用&amp;"></a>引用&amp;</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">c</span><span class="params">(<span class="type">int</span> &amp;a)</span></span>&#123;</span><br><span class="line">    <span class="comment">//若没有取地址符号,没办法改变变量值</span></span><br><span class="line">    a += <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">void</span>)</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> a  = <span class="number">5</span>;</span><br><span class="line">    <span class="built_in">c</span>(a);</span><br><span class="line">    cout &lt;&lt; a &lt;&lt; endl;</span><br><span class="line">    <span class="comment">//输出6</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="拓拓打字机"><a href="#拓拓打字机" class="headerlink" title="拓拓打字机"></a>拓拓打字机</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">题目描述 拓拓打字机</span></span><br><span class="line"><span class="comment">拓拓在写一个英文作文作业，但是他比较粗心潦草，打出的单词中间有许多个连续空格。</span></span><br><span class="line"><span class="comment">现在请你编程帮他过滤掉单词中间的多余的空格，只留下一个空格。</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">输入格式</span></span><br><span class="line"><span class="comment">一行，一个字符串（长度不超过 200200），句子的头和尾都没有空格。</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">输出格式</span></span><br><span class="line"><span class="comment">一行，一个字符串表示过滤之后的句子。</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	string str;</span><br><span class="line">	<span class="built_in">getline</span>(cin, str);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; str.<span class="built_in">length</span>(); i++) &#123;</span><br><span class="line">		<span class="keyword">if</span> ((str[i] == <span class="string">&#x27; &#x27;</span> &amp;&amp; str[i + <span class="number">1</span>] != <span class="string">&#x27; &#x27;</span>) || str[i] != <span class="string">&#x27; &#x27;</span>) &#123;</span><br><span class="line">			cout &lt;&lt; str[i];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
+<h2 id="拓拓打字机"><a href="#拓拓打字机" class="headerlink" title="拓拓打字机"></a>拓拓打字机</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">题目描述 拓拓打字机</span></span><br><span class="line"><span class="comment">拓拓在写一个英文作文作业，但是他比较粗心潦草，打出的单词中间有许多个连续空格。</span></span><br><span class="line"><span class="comment">现在请你编程帮他过滤掉单词中间的多余的空格，只留下一个空格。</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">输入格式</span></span><br><span class="line"><span class="comment">一行，一个字符串（长度不超过 200200），句子的头和尾都没有空格。</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">输出格式</span></span><br><span class="line"><span class="comment">一行，一个字符串表示过滤之后的句子。</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	string str;</span><br><span class="line">	<span class="built_in">getline</span>(cin, str);</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; str.<span class="built_in">length</span>(); i++) &#123;</span><br><span class="line">		<span class="keyword">if</span> ((str[i] == <span class="string">&#x27; &#x27;</span> &amp;&amp; str[i + <span class="number">1</span>] != <span class="string">&#x27; &#x27;</span>) || str[i] != <span class="string">&#x27; &#x27;</span>) &#123;</span><br><span class="line">			cout &lt;&lt; str[i];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>算法</category>
       </categories>
       <tags>
         <tag>-算法 -C++</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>HelloWorld</title>
-    <url>/2024/01/29/HelloWorld/HelloWorld/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我的第一篇博客文章!</p>
-<p>HelloWorld!</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/01/29/HelloWorld/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>MySQL学习</title>
@@ -146,6 +138,13 @@
 <h2 id="㈣DCL语句"><a href="#㈣DCL语句" class="headerlink" title="㈣DCL语句"></a>㈣DCL语句</h2><h4 id="1管理用户"><a href="#1管理用户" class="headerlink" title="1管理用户"></a>1管理用户</h4><p><img src="https://img-blog.csdnimg.cn/673ff3874c1448b78f31899ac65adbd5.png"></p>
 <h4 id="2-权限控制"><a href="#2-权限控制" class="headerlink" title="2.权限控制"></a>2.权限控制</h4><p><img src="https://img-blog.csdnimg.cn/b8d6f2d95b044e92964067ad0f742ecb.png"></p>
 <p><img src="https://img-blog.csdnimg.cn/db3bfbba083f493ca07618fa6c36effd.png"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>HelloWorld</title>
+    <url>/2024/01/29/HelloWorld/HelloWorld/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我的第一篇博客文章!</p>
+<p>HelloWorld!</p>
 ]]></content>
   </entry>
   <entry>
